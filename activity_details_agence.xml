@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iconhome" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textViewAdresse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="Adresse :"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewCodePostale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code Postale : "
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+
+    <TextView
+        android:id="@+id/textViewFax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fax : "
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/textViewNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom de l'agence"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tel : "
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/textViewVille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ville de l'agence : "
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonLocaliser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FD5E1C"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:text="Localiser" />
+
+        <Button
+            android:id="@+id/buttonReserver"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:background="#FD5E1C"
+            android:text="Réserver"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/buttonContact"
+            android:layout_width="397dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+
+            android:background="#FD5E1C"
+            android:layout_weight="1"
+            android:text="Contact" />
+
+    </LinearLayout>
+
+</LinearLayout>

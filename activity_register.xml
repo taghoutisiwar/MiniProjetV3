@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Page Title: Inscription -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center_horizontal"
+        android:text="Inscription"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <!-- Space as a separator for visual structuring -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="58dp" />
+
+
+    <!-- N Cin -->
+    <EditText
+        android:id="@+id/cin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="N° Cin" />
+
+    <!-- Nom -->
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom" />
+
+    <!-- Prénom -->
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prenom" />
+
+    <!-- Tel -->
+    <EditText
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tel"
+        android:inputType="phone" />
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <!-- Adresse -->
+    <EditText
+        android:id="@+id/adresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adresse" />
+
+    <!-- Login -->
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Login" />
+
+    <!-- Mot de passe -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mot de passe"
+        android:inputType="textPassword" />
+
+    <!-- Button S'inscrire -->
+    <Button
+        android:id="@+id/btn_inscrire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="S'inscrire"
+        android:background="#FD5E1C"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
